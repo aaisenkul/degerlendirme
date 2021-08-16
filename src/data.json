@@ -1,0 +1,313 @@
+{
+    "pages": [
+        {
+            "page": 1,
+            "mainQuestion": "KONUŞMA KONULARINIZ",
+            "questions": [
+                {
+                    "id": 1,
+                    "q": "sonuçlar, ulaşmak istedikleriniz"
+                },
+                {
+                    "id": 2,
+                    "q": "hayaller ve arzular"
+                },
+                {
+                    "id": 3,
+                    "q": "duygular ve deneyimler"
+                },
+                {
+                    "id": 4,
+                    "q": "gerçekler ve rakamlar"
+                }
+            ]
+        },
+        {
+            "page": 2,
+            "mainQuestion": "KONUŞMA HIZINIZ",
+            "questions": [
+                {
+                    "id": 1,
+                    "q": "Çok hızlı"
+                },
+                {
+                    "id": 2,
+                    "q": "Hızlı"
+                },
+                {
+                    "id": 3,
+                    "q": "Daha yavaş"
+                },
+                {
+                    "id": 4,
+                    "q": "Orta"
+                }
+            ]
+        },
+        {
+            "page": 3,
+            "mainQuestion": "GİYİM/GÖRÜNÜM",
+            "questions": [
+                {
+                    "id": 1,
+                    "q": "Şık,Moda evi tasarımı,resmi"
+                },
+                {
+                    "id": 2,
+                    "q": "Canlı renkler,moda ama resmi değil"
+                },
+                {
+                    "id": 3,
+                    "q": "Yumuşak renkler,rahat"
+                },
+                {
+                    "id": 4,
+                    "q": "Tutucu klasik iş kıyafetleri"
+                }
+            ]
+        },
+        {
+            "page": 4,
+            "mainQuestion": "İLETİŞİM TARZINIZ",
+            "questions": [
+                {
+                    "id": 1,
+                    "q": "Dolaysız"
+                    
+                },
+                {
+                    "id": 2,
+                    "q": "Canlı, heyecanlı"
+                },
+                {
+                    "id": 3,
+                    "q": "Hayalle karışık düşünceler, rahat"
+                },
+                {
+                    "id": 4,
+                    "q": "Belirli az ve öz"
+                }
+            ]
+        },
+        {
+            "page": 5,
+            "mainQuestion": "SİZİ MOTİVE EDEN UNSURLAR",
+            "questions": [
+                {
+                    "id": 1,
+                    "q": "Sonuçlar"
+                },
+                {
+                    "id": 2,
+                    "q": "Alkış"
+                },
+                {
+                    "id": 3,
+                    "q": "Onay"
+                },
+                {
+                    "id": 4,
+                    "q": "Etkinlik - Hareket"
+                }
+            ]
+        },
+        {
+            "page": 6,
+            "mainQuestion": "BAŞARIYA GÖTÜREN UNSUR",
+            "questions": [
+                {
+                    "id": 1,
+                    "q": "Baskı,değişim"
+                },
+                {
+                    "id": 2,
+                    "q": "Teşvik, eğlenme"
+                },
+                {
+                    "id": 3,
+                    "q": "Birliktelik, destek"
+                },
+                {
+                    "id": 4,
+                    "q": "Dikkat , bilgi"
+                }
+            ]
+        },
+        {
+            "page": 7,
+            "mainQuestion": "ÖFKENİZİ İFADE BİÇİMİNİZ",
+            "questions": [
+                {
+                    "id": 1,
+                    "q": "Sabırsız, saldırgan"
+                },
+                {
+                    "id": 2,
+                    "q": "kolaylıkla sinirlenir, patlayabilir"
+                },
+                {
+                    "id": 3,
+                    "q": "Ilımlı, bocalayabilir"
+                },
+                {
+                    "id": 4,
+                    "q": "Hemen kızmadan, mantıklı yaklaşım"
+                }
+            ]
+        },
+        {
+            "page": 8,
+            "mainQuestion": "ÇALIŞMA TARZINIZ",
+            "questions": [
+                {
+                    "id": 1,
+                    "q": "Yoğun,hızlı birkaç iş bir arada"
+                },
+                {
+                    "id": 2,
+                    "q": "Özgürlüğü sever insan ilişkileri kuvvetli"
+                },
+                {
+                    "id": 3,
+                    "q": "Rahat, iş birlikçi, yardıma istekli"
+                },
+                {
+                    "id": 4,
+                    "q": "Ayrıntıya önem veren,tek seferde tek konu"
+                }
+            ]
+        },
+        {
+            "page": 9,
+            "mainQuestion": "OFİS ORTAMINIZ",
+            "questions": [
+                {
+                    "id": 1,
+                    "q": "Öncelik sırasına göre dizilmiş, planlı"
+                },
+                {
+                    "id": 2,
+                    "q": "İlginç nesnele, ufak elektronik eşyalar"
+                },
+                {
+                    "id": 3,
+                    "q": "Duygusal hatıralar"
+                },
+                {
+                    "id": 4,
+                    "q": "Başvuru materyali yakınında, çok sayıda evrak yığını"
+                }
+            ]
+        },
+        {
+            "page": 10,
+            "mainQuestion": "ÇALIŞMA TEMPONUZ",
+            "questions": [
+                {
+                    "id": 1,
+                    "q": "Hızlı, değişimi sever"
+                },
+                {
+                    "id": 2,
+                    "q": "Daha hızlı, kolay sıkılır, bir konudan diğer konuya geçer"
+                },
+                {
+                    "id": 3,
+                    "q": "Nadiren aceleci, baskıyı sevmez"
+                },
+                {
+                    "id": 4,
+                    "q": "Yöntemsel, düzenli iş akışı"
+                }
+            ]
+        },
+        {
+            "page": 11,
+            "mainQuestion": "SEVMEDİKLERİNİZ",
+            "questions": [
+                {
+                    "id": 1,
+                    "q": "Zaman israfı"
+                },
+                {
+                    "id": 2,
+                    "q": "Tekerleği yeniden keşfetmek"
+                },
+                {
+                    "id": 3,
+                    "q": "Çatışma "
+                },
+                {
+                    "id": 4,
+                    "q": "Yanılmak"
+                }
+            ]
+        },
+        {
+            "page": 12,
+            "mainQuestion": "GRUP İÇİ ROLÜNÜZ",
+            "questions": [
+                {
+                    "id": 1,
+                    "q": "Lider - yönetme ihtiyacı"
+                },
+                {
+                    "id": 2,
+                    "q": "Ahenk sağlayıcı,ilgi merkezi olma ihtiyacı"
+                },
+                {
+                    "id": 3,
+                    "q": "Uzlaştırıcı, gruba dahil olma ihtiyacı"
+                },
+                {
+                    "id": 4,
+                    "q": "Bilgi sağlayıcı - odaklaşma ve yön ihtiyacı"
+                }
+            ]
+        },
+        {
+            "page": 13,
+            "mainQuestion": "TAKDİR EDİLMEK İSTEDİĞİNİZ ÖZELLİK",
+            "questions": [
+                {
+                    "id": 1,
+                    "q": "Verimliliğim"
+                },
+                {
+                    "id": 2,
+                    "q": "Katkılarım"
+                },
+                {
+                    "id": 3,
+                    "q": "Katılımım"
+                },
+                {
+                    "id": 4,
+                    "q": "İşimin kalitesi"
+                }
+            ]
+        },
+        {
+            "page": 14,
+            "mainQuestion": "TERCİH ETTİĞİNİZ ÖDÜL",
+            "questions": [
+                {
+                    "id": 1,
+                    "q": "Güç"
+                },
+                {
+                    "id": 2,
+                    "q": "Taktir"
+                },
+                {
+                    "id": 3,
+                    "q": "Onay"
+                },
+                {
+                    "id": 4,
+                    "q": "Sorumluluk"
+                }
+            ]
+        }
+    ]
+}   
