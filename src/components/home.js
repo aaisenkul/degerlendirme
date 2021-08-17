@@ -8,7 +8,7 @@ const HomePage = () => {
 // eslint-disable-next-line
   const [userName, setUserName] = useState("");
   const [captcha, setCaptcha] = useState(false);
-
+// captcha secret key 6LelhgccAAAAAIs14dcGOSJv3qnI6W1_gRQQKENd
 
   // eslint-disable-next-line
   function onChange(value) {
@@ -36,7 +36,7 @@ const HomePage = () => {
         </label>
         </div>
         <ReCAPTCHA className="captcha"
-          sitekey="6LchbpUbAAAAABhiOUw5617PI3EwZm2_amhTN3AL"
+          sitekey="6LelhgccAAAAAH4RDvr1CK0bbJqJ6qPItKD_T2Dd"
           onChange={() => setCaptcha(!captcha)}
         />
       </form>
