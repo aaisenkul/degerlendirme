@@ -9,10 +9,10 @@ const QuestionPage = ({ match, setIsHeaderShown, pushToColumns, columns }) => {
     // eslint-disable-next-line
     const [changeColor,setChangeColor] = useState(false);
     const id = match.params.number;
-    const [Q1, setQ1] = useState(0);
-    const [Q2, setQ2] = useState(0);
-    const [Q3, setQ3] = useState(0);
-    const [Q4, setQ4] = useState(0);
+    const [D, setD] = useState(0);
+    const [DD, setDD] = useState(0);
+    const [DDD, setDDD] = useState(0);
+    const [DDDD, setDDDD] = useState(0);
 
     
 
@@ -23,24 +23,24 @@ const QuestionPage = ({ match, setIsHeaderShown, pushToColumns, columns }) => {
 
         const selectedProps = columns.filter(x => x.id === id);
         if(selectedProps.length > 0){
-            setQ1(selectedProps[0].values[1]);
-            setQ2(selectedProps[0].values[2]);
-            setQ3(selectedProps[0].values[3]);
-            setQ4(selectedProps[0].values[4]);
+            setD(selectedProps[0].values[1]);
+            setDD(selectedProps[0].values[2]);
+            setDDD(selectedProps[0].values[3]);
+            setDDDD(selectedProps[0].values[4]);
         }
 
         setIsHeaderShown(true);
     }, [setIsHeaderShown, pushToColumns, columns, id])
 
     useEffect(()=> {
-        if(Q1&&Q2&&Q3&&Q4){
+        if(D&&DD&&DDD&&DDDD){
             setChangeColor()
         }
-    },[Q1,Q2,Q3,Q4])
+    },[D,DD,DDD,DDDD])
 
     const sendAnswerHandler = () => {
-        if (Q1 && Q2 && Q3 && Q4) {
-            const temp = [Q1, Q2, Q3, Q4];
+        if (D && DD && DDD && DDDD) {
+            const temp = [D, DD, DDD, DDDD];
             const unq = (value, index, self) => {
                 return self.indexOf(value) === index;
             }
@@ -49,10 +49,10 @@ const QuestionPage = ({ match, setIsHeaderShown, pushToColumns, columns }) => {
                 pushToColumns({
                     id: id,
                     values: {
-                        1: Number(Q1),
-                        2: Number(Q2),
-                        3: Number(Q3),
-                        4: Number(Q4),
+                        1: Number(D),
+                        2: Number(DD),
+                        3: Number(DDD),
+                        4: Number(DDDD),
                     }
                 });
             } else {
@@ -65,8 +65,8 @@ const QuestionPage = ({ match, setIsHeaderShown, pushToColumns, columns }) => {
     }
 
     const canRoute = () => {
-        if (Q1 && Q2 && Q3 && Q4) {
-            const temp = [Q1, Q2, Q3, Q4];
+        if (D && DD && DDD && DDDD) {
+            const temp = [D, DD, DDD, DDDD];
             function onlyUnique(value, index, self) {
                 return self.indexOf(value) === index;
             }
@@ -94,16 +94,16 @@ const QuestionPage = ({ match, setIsHeaderShown, pushToColumns, columns }) => {
                                 <select
                                     className="soru"
                                     value={
-                                        q.id === 1 ? Q1
-                                            : q.id === 2 ? Q2
-                                                : q.id === 3 ? Q3
-                                                    : q.id === 4 ? Q4 : -1
+                                        q.id === 1 ? D
+                                            : q.id === 2 ? DD
+                                                : q.id === 3 ? DDD
+                                                    : q.id === 4 ? DDDD : -1
                                     }
                                     onChange={
-                                        q.id === 1 ? e => setQ1(e.target.value)
-                                            : q.id === 2 ? e => setQ2(e.target.value)
-                                                : q.id === 3 ? e => setQ3(e.target.value)
-                                                    : q.id === 4 ? e => setQ4(e.target.value)
+                                        q.id === 1 ? e => setD(e.target.value)
+                                            : q.id === 2 ? e => setDD(e.target.value)
+                                                : q.id === 3 ? e => setDDD(e.target.value)
+                                                    : q.id === 4 ? e => setDDDD(e.target.value)
                                                         : null
                                     }
                                 >
