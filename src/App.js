@@ -11,7 +11,6 @@ const App = () => {
     const [isHeaderShown, setIsHeaderShown] = useState(false);
     const [setSelectedQuestionPage] = useState(-1);
 
-
     let sutun1Toplam = 0;
     let sutun2Toplam = 0;
     let sutun3Toplam = 0;
